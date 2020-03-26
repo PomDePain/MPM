@@ -1,7 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <string.h>
+#include <unistd.h>
 
-int main (int argc, char *argv[]) {
-	printf("Hello DMT !\n");
-	return 0;
+#include "main.h"
+
+int main(int argc, char *argv[])
+{
+  printf("Hello World...\n");
+
+  LibHelloWorld();
+
+  return 0;
 }
+
+
+
+
 
