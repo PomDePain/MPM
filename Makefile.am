@@ -4,10 +4,10 @@ CFLAGS = -Wall -pedantic
 include_HEADERS = main.h
 
 lib_LTLIBRARIES = libexample.la
-libbbexample_la_SOURCES  = examplelib.c
-libbbexample_la_LDFLAGS= -version-info 1:0:0
+libexample_la_SOURCES  = examplelib.c
+libexample_la_LDFLAGS= -version-info 1:0:0
 
 bin_PROGRAMS = main
-bbexample_SOURCES = main.c
-bbexample_LDADD = .libs/libexample.la
-bbexample_DEPENDENCIES = libexample.la
+main_SOURCES = main.c
+main_LDADD = .libs/libexample.la
+main_DEPENDENCIES = libexample.la
