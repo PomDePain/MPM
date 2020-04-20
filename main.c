@@ -11,10 +11,9 @@
 int main(int argc, char *argv[])
 {
   printf("Hello World...\n");
-  printf("Test Commit 2...\n");
+  printf("Test Commit 3...\n");
 
   LibHelloWorld();
 
   return 0;
 }
-
