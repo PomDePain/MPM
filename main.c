@@ -11,13 +11,10 @@
 int main(int argc, char *argv[])
 {
   printf("Hello World...\n");
+  printf("Test Commit 2...\n");
 
   LibHelloWorld();
 
   return 0;
 }
-
-
-
-
 
